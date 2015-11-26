@@ -1,0 +1,90 @@
+  <!-- Start preloading -->
+  <div id="loading" class="loading-invisible">
+    <div class="loading-center">
+      <div class="loading-center-absolute">
+        <div class="object"></div>
+        <div class="object"></div>
+        <div class="object"></div>
+        <div class="object"></div>
+        <div class="object"></div>
+        <div class="object"></div>
+        <div class="object"></div>
+        <div class="object"></div>
+        <div class="object"></div>
+        <div class="object"></div>
+      </div>
+      <p>Please wait...</p>
+    </div>
+  </div>
+  <script type="text/javascript">
+      document.getElementById("loading").className = "loading-visible";
+      var hideDiv = function(){document.getElementById("loading").className = "loading-invisible";};
+      var oldLoad = window.onload;
+      var newLoad = oldLoad ? function(){hideDiv.call(this);oldLoad.call(this);} : hideDiv;
+      window.onload = newLoad;
+  </script>
+  <!-- End preloading -->
+    
+    <!-- Start Scroll to top -->
+    <div class="scroll top">
+        <a href="#home"><span class="fa fa-chevron-up"></span></a>
+    </div>
+    <!-- End Scroll to top -->
+   
+    <!-- Start Scroll to top -->
+    <div class="scroll top">
+        <a href="#home"><span class="fa fa-chevron-up"></span></a>
+    </div>
+    <!-- End Scroll to top -->
+    
+    <!-- Start Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <!-- Start Submenu -->
+        <div class="submenu">
+            <span class="ribbon"></span>
+            <div class="container">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="sub-link"><span class="fa fa-envelope"></span> info@yourdomain.com </li>
+                    <li class="sub-link"><span class="fa fa-phone"></span> +6221-123-456-789 </li>
+                    <li class="link"><span class="fa fa-lock"></span><a href="#">Register</a> </li>
+                    <li class="link-btn"><a href="#" class="btn btn-primary">Login</a> </li>
+                </ul>
+            </div>
+        </div>    
+        <!-- End Submenu -->
+        
+        <!-- Start Mainmenu -->
+        <div class="mainmenu">
+            <div class="container">            
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myMenu">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="index.html">
+                    <img src="images/brand/logo.png" class="logo" alt="">  
+                  </a>
+                </div>
+
+                <!-- Navigation Menu -->
+                <div class="collapse navbar-collapse" id="myMenu">
+                  <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="features.html">Features</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                  </ul>
+                </div>
+            </div>
+        </div>    
+        <!-- End Mainmenu -->
+    </nav>
+    <!-- End Navigation -->
+    
+    <div class="clearfix"></div>

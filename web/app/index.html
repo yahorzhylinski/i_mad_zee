@@ -50,37 +50,13 @@
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <!-- Add your site or application content here -->
-    <div class="header">
-      <div class="navbar navbar-default" role="navigation">
-        <div class="container">
-          <div class="navbar-header">
-
-            <a class="navbar-brand" href="#/">projects</a>
-          </div>
-
-          <div class="collapse">
-
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#/">Home</a></li>
-              <li><a ng-href="#/about">About</a></li>
-              <li><a ng-href="#/">Contact</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
+    <ng-include src="'views/shared/navbar.html'"></ng-include>
 
     <div class="container">
-    <div ng-view=""></div>
+      <div ng-view=""></div>
     </div>
 
-    <div class="footer">
-      <div class="container">
-        <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
-      </div>
-    </div>
-
+    <ng-include src="'views/shared/footer.html'"></ng-include>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
      <script>
@@ -93,24 +69,24 @@
        ga('send', 'pageview');
     </script>
 
-  <script src="scripts/template-js/jquery-1.11.1.min.js"></script>
-  <script src="scripts/template-js/jquery.easing-1.3.min.js"></script>
-  <script src="scripts/template-js/bootstrap.min.js"></script>
-  <script src="scripts/template-js/ie10-viewport-bug-workaround.js"></script>
-  <script src="scripts/template-js/animatedBg/animatedBg-setting.js"></script>
-  <script src="scripts/template-js/scrollspy/scrollspy.js"></script>
-  <script src="scripts/template-js/owl/owl.carousel.min.js"></script>
-  <script src="scripts/template-js/owl/setting.js"></script>
-  <script src="scripts/template-js/masonry/masonry-3.1.4.js"></script> 
-  <script src="scripts/template-js/masonry/masonry.filter.js"></script>
-  <script src="scripts/template-js/masonry/setting.js"></script>
-  <script src="scripts/template-js/prettyPhoto/jquery.prettyPhoto.js"></script>
-  <script src="scripts/template-js/prettyPhoto/setting.js"></script>
-  <script src="scripts/template-js/parallax/jquery.parallax-1.1.3.js"></script>
-  <script src="scripts/template-js/parallax/setting.js"></script>
-  <script src="scripts/template-js/tweecool/tweecool.js"></script>
-  <script src="scripts/template-js/tweecool/setting.js"></script>
-  <script src="scripts/template-js/custom.js"></script>
+    <script src="scripts/template-js/jquery-1.11.1.min.js"></script>
+    <script src="scripts/template-js/jquery.easing-1.3.min.js"></script>
+    <script src="scripts/template-js/bootstrap.min.js"></script>
+    <script src="scripts/template-js/ie10-viewport-bug-workaround.js"></script>
+    <script src="scripts/template-js/animatedBg/animatedBg-setting.js"></script>
+    <script src="scripts/template-js/scrollspy/scrollspy.js"></script>
+    <script src="scripts/template-js/owl/owl.carousel.min.js"></script>
+    <script src="scripts/template-js/owl/setting.js"></script>
+    <script src="scripts/template-js/masonry/masonry-3.1.4.js"></script> 
+    <script src="scripts/template-js/masonry/masonry.filter.js"></script>
+    <script src="scripts/template-js/masonry/setting.js"></script>
+    <script src="scripts/template-js/prettyPhoto/jquery.prettyPhoto.js"></script>
+    <script src="scripts/template-js/prettyPhoto/setting.js"></script>
+    <script src="scripts/template-js/parallax/jquery.parallax-1.1.3.js"></script>
+    <script src="scripts/template-js/parallax/setting.js"></script>
+    <script src="scripts/template-js/tweecool/tweecool.js"></script>
+    <script src="scripts/template-js/tweecool/setting.js"></script>
+    <script src="scripts/template-js/custom.js"></script>
 
 
     <!-- build:js(.) scripts/vendor.js -->
@@ -125,10 +101,10 @@
     <!-- endbower -->
     <!-- endbuild -->
 
-        <!-- build:js({.tmp,app}) scripts/scripts.js -->
-        <script src="scripts/app.js"></script>
-        <script src="scripts/controllers/main.js"></script>
-        <script src="scripts/controllers/about.js"></script>
-        <!-- endbuild -->
+    <!-- build:js({.tmp,app}) scripts/scripts.js -->
+    <script src="scripts/app.js"></script>
+    <script src="scripts/controllers/main.js"></script>
+    <script src="scripts/controllers/about.js"></script>
+    <!-- endbuild -->
 </body>
 </html>
