@@ -1,0 +1,1178 @@
+<!DOCTYPE HTML>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="de">  <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cobian flat bootstrap landing page</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="robots" content="index,follow">
+	
+    <!-- Start Font -->
+	<link type="text/css" rel="stylesheet" href="fonts/open-sans/stylesheet.css">
+    <link type="text/css" rel="stylesheet" href="css/font-awesome.css" /><!-- Font Icon Fontawesome -->
+	<!-- End Font -->
+    
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" /><!-- Bootstrap -->	
+    <link type="text/css" rel="stylesheet" href="css/overwrite.css" /><!-- Overwrite -->
+
+    <!-- Start Default -->
+	<link type="text/css" rel="stylesheet" href="css/icons.css" /><!-- Icons -->
+    <link type="text/css" rel="stylesheet" href="css/style.css" /><!-- Overwrite -->
+	<link type="text/css" rel="stylesheet" href="skins/default.css"  /><!-- Color -->
+	<!-- End Default -->
+    
+	<!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+    
+    <!--[if IE 9]>
+        <link rel="stylesheet" type="text/css" href="css/ie9.css">
+    <![endif]-->
+    <!--[if IE 8]>
+        <link rel="stylesheet" type="text/css" href="css/ie8.css">
+    <![endif]-->
+	
+</head>
+
+<body id="home">  
+ 	<!-- Start preloading -->
+	<div id="loading" class="loading-invisible">
+		<div class="loading-center">
+			<div class="loading-center-absolute">
+				<div class="object"></div>
+				<div class="object"></div>
+				<div class="object"></div>
+				<div class="object"></div>
+				<div class="object"></div>
+				<div class="object"></div>
+				<div class="object"></div>
+				<div class="object"></div>
+				<div class="object"></div>
+				<div class="object"></div>
+			</div>
+			<p>Please wait...</p>
+		</div>
+	</div>
+	<script type="text/javascript">
+		  document.getElementById("loading").className = "loading-visible";
+		  var hideDiv = function(){document.getElementById("loading").className = "loading-invisible";};
+		  var oldLoad = window.onload;
+		  var newLoad = oldLoad ? function(){hideDiv.call(this);oldLoad.call(this);} : hideDiv;
+		  window.onload = newLoad;
+	</script>
+	<!-- End preloading -->
+    
+    <!-- Start Scroll to top -->
+    <div class="scroll top">
+        <a href="#home"><span class="fa fa-chevron-up"></span></a>
+    </div>
+    <!-- End Scroll to top -->
+	 
+    <!-- Start Scroll to top -->
+    <div class="scroll top">
+        <a href="#home"><span class="fa fa-chevron-up"></span></a>
+    </div>
+    <!-- End Scroll to top -->
+    
+    <!-- Start Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <!-- Start Submenu -->
+        <div class="submenu">
+            <span class="ribbon"></span>
+            <div class="container">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="sub-link"><span class="fa fa-envelope"></span> info@yourdomain.com </li>
+                    <li class="sub-link"><span class="fa fa-phone"></span> +6221-123-456-789 </li>
+                    <li class="link"><span class="fa fa-lock"></span><a href="#">Register</a> </li>
+                    <li class="link-btn"><a href="#" class="btn btn-primary">Login</a> </li>
+                </ul>
+            </div>
+        </div>    
+        <!-- End Submenu -->
+        
+        <!-- Start Mainmenu -->
+        <div class="mainmenu">
+            <div class="container">            
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myMenu">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="index.html">
+                    <img src="images/brand/logo.png" class="logo" alt="">  
+                  </a>
+                </div>
+
+                <!-- Navigation Menu -->
+                <div class="collapse navbar-collapse" id="myMenu">
+                  <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="features.html">Features</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                  </ul>
+                </div>
+            </div>
+        </div>    
+        <!-- End Mainmenu -->
+    </nav>
+    <!-- End Navigation -->
+    
+    <div class="clearfix"></div>
+	
+	<!-- Start inner head -->
+	<div class="inner-head bg-animate">
+        <!-- Start Animated Background -->
+        <div id="AnimatedBg" class="fixed-page"></div>
+        <!-- End Animated Background -->
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-md-8 col-md-offset-2">
+					<h3>Icons</h3>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End inner head -->
+	
+    <div class="clearfix"></div>
+	
+	<!-- Start breadcrumb -->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="breadcrumb-wrapp">
+					<h6>Icons</h6>
+					<ol class="breadcrumb">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Page</a></li>
+						<li class="active">Icons</li>
+					</ol>
+				</div>
+			</div>	
+		</div>
+	</div>
+	<!-- End breadcrumb -->
+	
+    <div class="clearfix"></div>
+	
+	<!-- Start inner page -->
+	<div class="inner-page marginbot40">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<!-- Start Title -->
+					<div class="row">
+						<div class="col-md-10 col-md-offset-1 title-section">
+							<h4 class="title"><span>Icon</span> Flat and colorful icons</h4>
+							<div class="line"><img src="images/title-section/icon-user.png" class="icon-title" alt=""></div>
+						</div>
+						<div class="col-md-12 text-center">
+							<p>All icons require an <code>&lt;i&gt;</code> tag with a unique class, prefixed with <code>icon icon-64 icon-</code>. To use, place the following code just about anywhere:</p>
+						</div>
+					</div>
+					<!-- End Title -->
+				</div>
+			</div>
+			
+			<!-- Start defaul icon size -->
+			<div class="row">
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-anchor"></i><br />
+					<code>icon-anchor</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-aperture"></i><br />
+					<code>icon-aperture</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-arrow-down"></i><br />
+					<code>icon-arrow-down</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-arrow-up"></i><br />
+					<code>icon-arrow-up</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-art"></i><br />
+					<code>icon-art</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-barchart"></i><br />
+					<code>icon-barchart</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-batteryfull"></i><br />
+					<code>icon-batteryfull</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-batterylow"></i><br />
+					<code>icon-batterylow</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-bike"></i><br />
+					<code>icon-bike</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-biker"></i><br />
+					<code>icon-biker</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-bikewheel"></i><br />
+					<code>icon-bikewheel</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-blimp"></i><br />
+					<code>icon-blimp</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-bolt"></i><br />
+					<code>icon-bolt</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-bomb"></i><br />
+					<code>icon-bomb</code>
+				</div>		
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-booklet"></i><br />
+					<code>icon-booklet</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-bookshelf"></i><br />
+					<code>icon-bookshelf</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-briefcase"></i><br />
+					<code>icon-briefcase</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-brightness"></i><br />
+					<code>icon-brightness</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-browser"></i><br />
+					<code>icon-browser</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-brush-pencil"></i><br />
+					<code>icon-brush-pencil</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-calculator"></i><br />
+					<code>icon-calculator</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-calendar"></i><br />
+					<code>icon-calendar</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-camera"></i><br />
+					<code>icon-camera</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-car"></i><br />
+					<code>icon-car</code>
+				</div>				
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-cart"></i><br />
+					<code>icon-cart</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-carwheel"></i><br />
+					<code>icon-carwheel</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-caution"></i><br />
+					<code>icon-caution</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-chat"></i><br />
+					<code>icon-chat</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-check"></i><br />
+					<code>icon-check</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-circlecompass"></i><br />
+					<code>icon-circlecompass</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-clapboard"></i><br />
+					<code>icon-clapboard</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-clipboard"></i><br />
+					<code>icon-clipboard</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-clock"></i><br />
+					<code>icon-clock</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-cloud"></i><br />
+					<code>icon-cloud</code>
+				</div>				
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-cmyk"></i><br />
+					<code>icon-cmyk</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-colorwheel"></i><br />
+					<code>icon-colorwheel</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-compass"></i><br />
+					<code>icon-compass</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-compose"></i><br />
+					<code>icon-compose</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-computer"></i><br />
+					<code>icon-computer</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-cone"></i><br />
+					<code>icon-cone</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-contacts"></i><br />
+					<code>icon-contacts</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-contrast"></i><br />
+					<code>icon-contrast</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-countdown"></i><br />
+					<code>icon-countdown</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-creditcard"></i><br />
+					<code>icon-creditcard</code>
+				</div>				
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-crop"></i><br />
+					<code>icon-crop</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-crossroads"></i><br />
+					<code>icon-crossroads</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-cruise"></i><br />
+					<code>icon-cruise</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-cursor"></i><br />
+					<code>icon-cursor</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-denied"></i><br />
+					<code>icon-denied</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-dev"></i><br />
+					<code>icon-dev</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-die"></i><br />
+					<code>icon-die</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-document"></i><br />
+					<code>icon-document</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-dolly"></i><br />
+					<code>icon-dolly</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-door"></i><br />
+					<code>icon-door</code>
+				</div>				
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-download"></i><br />
+					<code>icon-download</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-easel"></i><br />
+					<code>icon-easel</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-email"></i><br />
+					<code>icon-email</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-eye"></i><br />
+					<code>icon-eye</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-eyedropper"></i><br />
+					<code>icon-eyedropper</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-fashion"></i><br />
+					<code>icon-fashion</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-filmreel"></i><br />
+					<code>icon-filmreel</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-filmroll"></i><br />
+					<code>icon-filmroll</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-flag"></i><br />
+					<code>icon-flag</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-flame"></i><br />
+					<code>icon-flame</code>
+				</div>				
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-flash"></i><br />
+					<code>icon-flash</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-flower"></i><br />
+					<code>icon-flower</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-focus"></i><br />
+					<code>icon-focus</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-folder"></i><br />
+					<code>icon-folder</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-frames"></i><br />
+					<code>icon-frames</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-gamecontroller"></i><br />
+					<code>icon-gamecontroller</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-gas"></i><br />
+					<code>icon-gas</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-gear"></i><br />
+					<code>icon-gear</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-genius"></i><br />
+					<code>icon-genius</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-global"></i><br />
+					<code>icon-global</code>
+				</div>				
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-globe"></i><br />
+					<code>icon-globe</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-gps"></i><br />
+					<code>icon-gps</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-hazard"></i><br />
+					<code>icon-hazard</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-heart"></i><br />
+					<code>icon-heart</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-helicopter"></i><br />
+					<code>icon-helicopter</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-hotair"></i><br />
+					<code>icon-hotair</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-hourglass"></i><br />
+					<code>icon-hourglass</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-image"></i><br />
+					<code>icon-image</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-interstate"></i><br />
+					<code>icon-interstate</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-key"></i><br />
+					<code>icon-key</code>
+				</div>				
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-keyboard"></i><br />
+					<code>icon-keyboard</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-lens"></i><br />
+					<code>icon-lens</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-lightbulb"></i><br />
+					<code>icon-lightbulb</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-loading"></i><br />
+					<code>icon-loading</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-location"></i><br />
+					<code>icon-location</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-locked"></i><br />
+					<code>icon-locked</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-magicwand"></i><br />
+					<code>icon-magicwand</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-magnifyingglass"></i><br />
+					<code>icon-magnifyingglass</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-mail"></i><br />
+					<code>icon-mail</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-map"></i><br />
+					<code>icon-map</code>
+				</div>				
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-megaphone"></i><br />
+					<code>icon-megaphone</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-megaphone2"></i><br />
+					<code>icon-megaphone2</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-memorycard"></i><br />
+					<code>icon-memorycard</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-merge"></i><br />
+					<code>icon-merge</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-mic"></i><br />
+					<code>icon-mic</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-microphone"></i><br />
+					<code>icon-microphone</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-money"></i><br />
+					<code>icon-money</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-motorcycle"></i><br />
+					<code>icon-motorcycle</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-music"></i><br />
+					<code>icon-music</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-news"></i><br />
+					<code>icon-news</code>
+				</div>				
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-paintbrush"></i><br />
+					<code>icon-paintbrush</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-paintbrush2"></i><br />
+					<code>icon-paintbrush2</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-paintcan"></i><br />
+					<code>icon-paintcan</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-paintroller"></i><br />
+					<code>icon-paintroller</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-parachute"></i><br />
+					<code>icon-parachute</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-pencil"></i><br />
+					<code>icon-pencil</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-phone"></i><br />
+					<code>icon-phone</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-piechart"></i><br />
+					<code>icon-piechart</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-pin"></i><br />
+					<code>icon-pin</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-pin2"></i><br />
+					<code>icon-pin2</code>
+				</div>				
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-plane"></i><br />
+					<code>icon-plane</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-play"></i><br />
+					<code>icon-play</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-plugin"></i><br />
+					<code>icon-plugin</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-polaroid"></i><br />
+					<code>icon-polaroid</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-polaroidcamera"></i><br />
+					<code>icon-polaroidcamera</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-polaroids"></i><br />
+					<code>icon-polaroids</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-power"></i><br />
+					<code>icon-power</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-present"></i><br />
+					<code>icon-present</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-profle"></i><br />
+					<code>icon-profle</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-quote"></i><br />
+					<code>icon-quote</code>
+				</div>				
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-racingflags"></i><br />
+					<code>icon-racingflags</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-radio"></i><br />
+					<code>icon-radio</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-radiotower"></i><br />
+					<code>icon-radiotower</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-rainbow"></i><br />
+					<code>icon-rainbow</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-recycle"></i><br />
+					<code>icon-recycle</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-rgb"></i><br />
+					<code>icon-rgb</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-ribbon"></i><br />
+					<code>icon-ribbon</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-roadblock"></i><br />
+					<code>icon-roadblock</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-rocket"></i><br />
+					<code>icon-rocket</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-rulertriangle"></i><br />
+					<code>icon-rulertriangle</code>
+				</div>				
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-running"></i><br />
+					<code>icon-running</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-sailboat"></i><br />
+					<code>icon-sailboat</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-schooolbus"></i><br />
+					<code>icon-schooolbus</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-scissors"></i><br />
+					<code>icon-scissors</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-scooter"></i><br />
+					<code>icon-scooter</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-security"></i><br />
+					<code>icon-security</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-speaker"></i><br />
+					<code>icon-speaker</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-spaceshuttle"></i><br />
+					<code>icon-spaceshuttle</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-smartphone"></i><br />
+					<code>icon-smartphone</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-slr"></i><br />
+					<code>icon-slr</code>
+				</div>				
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-skateboard"></i><br />
+					<code>icon-skateboard</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-shop"></i><br />
+					<code>icon-shop</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-shoeprints"></i><br />
+					<code>icon-shoeprints</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-shipwheel"></i><br />
+					<code>icon-shipwheel</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-settings"></i><br />
+					<code>icon-settings</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-selftimer"></i><br />
+					<code>icon-selftimer</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-speedometer"></i><br />
+					<code>icon-speedometer</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-spraypaint"></i><br />
+					<code>icon-spraypaint</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-stack"></i><br />
+					<code>icon-stack</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-star"></i><br />
+					<code>icon-star</code>
+				</div>				
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-steeringwheel"></i><br />
+					<code>icon-steeringwheel</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-stop"></i><br />
+					<code>icon-stop</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-sub"></i><br />
+					<code>icon-sub</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-submarine"></i><br />
+					<code>icon-submarine</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-support"></i><br />
+					<code>icon-support</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-swatches"></i><br />
+					<code>icon-swatches</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-tablet"></i><br />
+					<code>icon-tablet</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-takeoff"></i><br />
+					<code>icon-takeoff</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-target"></i><br />
+					<code>icon-target</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-taxi"></i><br />
+					<code>icon-taxi</code>
+				</div>				
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-toolbox"></i><br />
+					<code>icon-toolbox</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-tools"></i><br />
+					<code>icon-tools</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-tractor"></i><br />
+					<code>icon-tractor</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-traffic"></i><br />
+					<code>icon-traffic</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-train"></i><br />
+					<code>icon-train</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-travelerbag"></i><br />
+					<code>icon-travelerbag</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-trends"></i><br />
+					<code>icon-trends</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-tripod"></i><br />
+					<code>icon-tripod</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-trophy"></i><br />
+					<code>icon-trophy</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-truck"></i><br />
+					<code>icon-truck</code>
+				</div>				
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-tv"></i><br />
+					<code>icon-tv</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-typography"></i><br />
+					<code>icon-typography</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-ufo"></i><br />
+					<code>icon-ufo</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-umbrella"></i><br />
+					<code>icon-umbrella</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-unicycle"></i><br />
+					<code>icon-unicycle</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-unlocked"></i><br />
+					<code>icon-unlocked</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-upload"></i><br />
+					<code>icon-upload</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-video"></i><br />
+					<code>icon-video</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-videocameraclassic"></i><br />
+					<code>icon-videocameraclassic</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-videocameracompact"></i><br />
+					<code>icon-videocameracompact</code>
+				</div>				
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-volume"></i><br />
+					<code>icon-volume</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-water"></i><br />
+					<code>icon-water</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-weather"></i><br />
+					<code>icon-weather</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-windsock"></i><br />
+					<code>icon-windsock</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-windy"></i><br />
+					<code>icon-windy</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-x"></i><br />
+					<code>icon-x</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-zoomin"></i><br />
+					<code>icon-zoomin</code>
+				</div>
+				<div class="col-md-2 icon-demo">
+					<i class="icon icon-64 icon-zoomout"></i><br />
+					<code>icon-zoomout</code>
+				</div>
+			</div>
+			<!-- Start defaul icon size -->
+			
+			<div class="row">
+				<div class="col-md-12">
+					<div class="divider"></div>
+					<!-- Start Title -->
+					<div class="row">
+						<div class="col-md-10 col-md-offset-1 title-section">
+							<h4 class="title"><span>Icon size</span> Setting icons size</h4>
+							<div class="line"><img src="images/title-section/icon-user.png" class="icon-title" alt=""></div>
+						</div>
+						<div class="col-md-12 text-center">
+							<p>Setting icons size just add <code>icon-64</code>, <code>icon-42</code>, <code>icon-32</code> and <code>icon-24</code> in the <code>&lt;i&gt;</code> class.</p>
+						</div>
+					</div>
+					<!-- End Title -->
+				</div>
+			</div>
+			
+			<!-- Start icon size -->
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<h5>Icon size 64x64</h5>
+				</div>		
+				<div class="col-md-3 icon-demo">
+					<i class="icon icon-64 icon-anchor"></i><br />
+					<code>icon icon-64 icon-anchor</code>
+				</div>
+				<div class="col-md-3 icon-demo">
+					<i class="icon icon-64 icon-aperture"></i><br />
+					<code>icon icon-64 icon-aperture</code>
+				</div>
+				<div class="col-md-3 icon-demo">
+					<i class="icon icon-64 icon-arrow-down"></i><br />
+					<code>icon icon-64 icon-arrow-down</code>
+				</div>
+				<div class="col-md-3 icon-demo">
+					<i class="icon icon-64 icon-arrow-up"></i><br />
+					<code>icon icon-64 icon-arrow-up</code>
+				</div>
+				<div class="col-md-12">
+					<div class="divider"></div>
+				</div>
+				<div class="col-md-12 text-center">
+					<h5>Icon size 42x42</h5>
+				</div>		
+				<div class="col-md-3 icon-demo">
+					<i class="icon icon-42 icon-art"></i><br />
+					<code>icon icon-42 icon-art</code>
+				</div>
+				<div class="col-md-3 icon-demo">
+					<i class="icon icon-42 icon-barchart"></i><br />
+					<code>icon icon-42 icon-barchart</code>
+				</div>
+				<div class="col-md-3 icon-demo">
+					<i class="icon icon-42 icon-batteryfull"></i><br />
+					<code>icon icon-42 icon-batteryfull</code>
+				</div>
+				<div class="col-md-3 icon-demo">
+					<i class="icon icon-42 icon-batterylow"></i><br />
+					<code>icon icon-42 icon-batterylow</code>
+				</div>
+				<div class="col-md-12">
+					<div class="divider"></div>
+				</div>
+				<div class="col-md-12 text-center">
+					<h5>Icon size 32x32</h5>
+				</div>		
+				<div class="col-md-3 icon-demo">
+					<i class="icon icon-32 icon-bike"></i><br />
+					<code>icon icon-32 icon-bike</code>
+				</div>
+				<div class="col-md-3 icon-demo">
+					<i class="icon icon-32 icon-biker"></i><br />
+					<code>icon icon-32 icon-biker</code>
+				</div>
+				<div class="col-md-3 icon-demo">
+					<i class="icon icon-32 icon-bikewheel"></i><br />
+					<code>icon icon-32 icon-bikewheel</code>
+				</div>
+				<div class="col-md-3 icon-demo">
+					<i class="icon icon-32 icon-blimp"></i><br />
+					<code>icon icon-32 icon-blimp</code>
+				</div>
+				<div class="col-md-12">
+					<div class="divider"></div>
+				</div>
+				<div class="col-md-12 text-center">
+					<h5>Icon size 24x24</h5>
+				</div>		
+				<div class="col-md-3 icon-demo">
+					<i class="icon icon-24 icon-bolt"></i><br />
+					<code>icon icon-24 icon-bolt</code>
+				</div>
+				<div class="col-md-3 icon-demo">
+					<i class="icon icon-24 icon-bomb"></i><br />
+					<code>icon icon-24 icon-bomb</code>
+				</div>
+				<div class="col-md-3 icon-demo">
+					<i class="icon icon-24 icon-booklet"></i><br />
+					<code>icon icon-24 icon-booklet</code>
+				</div>
+				<div class="col-md-3 icon-demo">
+					<i class="icon icon-24 icon-bookshelf"></i><br />
+					<code>icon icon-24 icon-bookshelf</code>
+				</div>
+			</div>
+			<!-- End icon size -->
+		</div>
+	</div>
+	<!-- End inner page -->
+	
+    <div class="clearfix"></div>
+	
+    <!-- Start Footer -->
+    <footer> 
+        <div class="main-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 footer-item">
+                        <img src="images/brand/logo-footer.png" class="logo-footer" alt="">
+                        <!-- Start Network Social Icon -->
+                        <ul class="social-network">
+                            <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                            <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                            <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
+                            <li><a href="#"><span class="fa fa-dribbble"></span></a></li>
+                            <li><a href="#"><span class="fa fa-instagram"></span></a></li>
+                        </ul>
+                        <!-- End Network Social Icon -->
+                    </div>
+                    <div class="col-md-3 footer-item">
+                        <div class="row">
+                            <div class="col-md-5 col-sm-6 col-xs-6">
+                                <!-- Start Link -->
+                                <ul class="footer-link">
+                                    <li><a href="#">Travel</a></li>
+                                    <li><a href="#">Explorers</a></li>
+                                    <li><a href="#">Nature</a></li>
+                                    <li><a href="#">Science</a></li>
+                                    <li><a href="#">Advices</a></li>
+                                </ul>
+                                <!-- End Link -->
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-6">
+                                <!-- Start Link -->
+                                <ul class="footer-link">
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="#">Term Of Service</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                </ul>
+                                <!-- Start Link -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 footer-item">
+                        <!-- Start Subscribe -->
+                        <h5 class="title-footer">Subscribe Now</h5>
+                        <p>Hrrem volutpat per in, te hinc essent mea ei pro corrumpit.</p>
+                        <div class="input-group left">
+                            <input type="text" class="form-control form-subscribe" placeholder="Enter Your Email">
+                            <span class="input-group-btn">
+                            <button class="btn btn-primary" type="button"><span class="fa fa-envelope"></span></button>
+                            </span>
+                        </div>
+                        <!-- End Subscribe -->
+                    </div>
+                    <div class="col-md-3 footer-item">
+                        <!-- Start Twitter Feed -->
+                        <h5 class="title-footer">Twitter Feed</h5>
+                        <div id="tweecool"></div>
+                        <!-- End Twitter Feed -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sub-footer">
+            2015 &copy; Copyright <a href="#">NCE18CEX</a> - All right reserved
+        </div>
+    </footer>
+    <!-- End Footer -->
+    
+	<!-- START JAVASCRIPT -->
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing-1.3.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+    
+    <!-- JavaScript animatedBg -->	
+	<script src="js/animatedBg/animatedBg-setting.js"></script>
+    
+    <!-- Scrollspy -->
+	<script src="js/scrollspy/scrollspy.js"></script>
+
+    <!-- JavaScript animatedBg -->	
+	<script src="js/animatedBg/animatedBg-setting.js"></script>
+	
+    <!--[if lte IE 9]>
+    	<script src="js/tweecool/jquery.xdomainrequest.min.js"></script>      
+	<![endif]-->
+	<!-- Twitter Feed -->
+	<script src="js/tweecool/tweecool.js"></script>
+	<script src="js/tweecool/setting.js"></script>
+	
+    <!-- My Script -->
+    <script type="text/javascript" src="js/custom.js"></script>
+	<!-- END JAVASCRIPT -->
+
+</body>
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE HTML>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="de">  <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cobian flat bootstrap landing page</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="robots" content="index,follow">
+	
+    <!-- Start Font -->
+	<link type="text/css" rel="stylesheet" href="fonts/open-sans/stylesheet.css">
+    <link type="text/css" rel="stylesheet" href="css/font-awesome.css" /><!-- Font Icon Fontawesome -->
+	<!-- End Font -->
+    
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" /><!-- Bootstrap -->	
+    <link type="text/css" rel="stylesheet" href="css/overwrite.css" /><!-- Overwrite -->
+
+    <!-- Start Default -->
+	<link type="text/css" rel="stylesheet" href="css/icons.css" /><!-- Icons -->
+    <link type="text/css" rel="stylesheet" href="css/style.css" /><!-- Overwrite -->
+	<link type="text/css" rel="stylesheet" href="skins/default.css"  /><!-- Color -->
+	<!-- End Default -->
+    
+	<!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+    
+    <!--[if IE 9]>
+        <link rel="stylesheet" type="text/css" href="css/ie9.css">
+    <![endif]-->
+    <!--[if IE 8]>
+        <link rel="stylesheet" type="text/css" href="css/ie8.css">
+    <![endif]-->
+	
+</head>
+
+<body id="home">
+ 	<!-- Start preloading -->
+	<div id="loading" class="loading-invisible">
+		<div class="loading-center">
+			<div class="loading-center-absolute">
+				<div class="object"></div>
+				<div class="object"></div>
+				<div class="object"></div>
+				<div class="object"></div>
+				<div class="object"></div>
+				<div class="object"></div>
+				<div class="object"></div>
+				<div class="object"></div>
+				<div class="object"></div>
+				<div class="object"></div>
+			</div>
+			<p>Please wait...</p>
+		</div>
+	</div>
+	<script type="text/javascript">
+		  document.getElementById("loading").className = "loading-visible";
+		  var hideDiv = function(){document.getElementById("loading").className = "loading-invisible";};
+		  var oldLoad = window.onload;
+		  var newLoad = oldLoad ? function(){hideDiv.call(this);oldLoad.call(this);} : hideDiv;
+		  window.onload = newLoad;
+	</script>
+	<!-- End preloading -->
+    
+    <!-- Start Scroll to top -->
+    <div class="scroll top">
+        <a href="#home"><span class="fa fa-chevron-up"></span></a>
+    </div>
+    <!-- End Scroll to top -->
+	
+	<div class="demo-header text-center">
+		<img src="images/brand/logo-footer.png" alt="" />
+		<h4>Cobian flat bootstrap landing page</h4>
+	</div>
+    <div class="demo-wrapper">
+		<div class="demo-column">
+			<h4>Multi page style</h4>
+			<div class="row">
+				<div class="col-md-12 marginbot60">
+					<a href="index.html" target="_blank"><img src="images/demo.png" class="img-demo" alt="" /></a><br />
+					<a href="index.html" target="_blank" class="btn btn-primary">Index alt1</a>
+				</div>
+				<div class="col-md-12">
+					<a href="index-alt1.html" target="_blank"><img src="images/demo1.png" class="img-demo" alt="" /></a><br />
+					<a href="index-alt1.html" target="_blank" class="btn btn-primary">Index alt2</a>
+				</div>
+			</div>
+		</div>
+		<div class="demo-column gray">
+			<h4>One page style</h4>
+			<div class="row">
+				<div class="col-md-12 marginbot60">
+					<a href="index-alt2.html" target="_blank"><img src="images/demo.png" class="img-demo" alt="" /></a><br />
+					<a href="index-alt2.html" target="_blank" class="btn btn-primary">Index alt1</a>
+				</div>
+				<div class="col-md-12">
+					<a href="index-alt3.html" target="_blank"><img src="images/demo1.png" class="img-demo" alt="" /></a><br />
+					<a href="index-alt3.html" target="_blank" class="btn btn-primary">Index alt2</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+    <div class="clearfix"></div>
+	
+    <!-- Start Footer -->
+    <footer> 
+        <div class="sub-footer">
+            2015 &copy; Copyright <a href="#">NCE18CEX</a> - All right reserved
+        </div>
+    </footer>
+    <!-- End Footer -->
+    
+	<!-- START JAVASCRIPT -->
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing-1.3.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- Scrollspy -->
+	<script src="js/scrollspy/scrollspy.js"></script>
+
+    <!--[if lte IE 9]>
+    	<script src="js/tweecool/jquery.xdomainrequest.min.js"></script>      
+	<![endif]-->
+	<!-- Twitter Feed -->
+	<script src="js/tweecool/tweecool.js"></script>
+	<script src="js/tweecool/setting.js"></script>
+	
+    <!-- My Script -->
+    <script type="text/javascript" src="js/custom.js"></script>
+	<!-- END JAVASCRIPT -->
+
+</body>
+</html>

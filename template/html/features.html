@@ -1,0 +1,377 @@
+<!DOCTYPE HTML>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="de">  <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cobian flat bootstrap landing page</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="robots" content="index,follow">
+	
+    <!-- Start Font -->
+	<link type="text/css" rel="stylesheet" href="fonts/open-sans/stylesheet.css">
+    <link type="text/css" rel="stylesheet" href="css/font-awesome.css" /><!-- Font Icon Fontawesome -->
+	<!-- End Font -->
+    
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" /><!-- Bootstrap -->	
+    <link type="text/css" rel="stylesheet" href="css/overwrite.css" /><!-- Overwrite -->
+
+    <!-- Start Default -->
+	<link type="text/css" rel="stylesheet" href="css/icons.css" /><!-- Icons -->
+    <link type="text/css" rel="stylesheet" href="css/style.css" /><!-- Overwrite -->
+	<link type="text/css" rel="stylesheet" href="skins/default.css"  /><!-- Color -->
+	<!-- End Default -->
+    
+	<!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+    
+    <!--[if IE 9]>
+        <link rel="stylesheet" type="text/css" href="css/ie9.css">
+    <![endif]-->
+    <!--[if IE 8]>
+        <link rel="stylesheet" type="text/css" href="css/ie8.css">
+    <![endif]-->
+	
+</head>
+
+<body id="home">  
+ 	<!-- Start preloading -->
+	<div id="loading" class="loading-invisible">
+		<div class="loading-center">
+			<div class="loading-center-absolute">
+				<div class="object"></div>
+				<div class="object"></div>
+				<div class="object"></div>
+				<div class="object"></div>
+				<div class="object"></div>
+				<div class="object"></div>
+				<div class="object"></div>
+				<div class="object"></div>
+				<div class="object"></div>
+				<div class="object"></div>
+			</div>
+			<p>Please wait...</p>
+		</div>
+	</div>
+	<script type="text/javascript">
+		  document.getElementById("loading").className = "loading-visible";
+		  var hideDiv = function(){document.getElementById("loading").className = "loading-invisible";};
+		  var oldLoad = window.onload;
+		  var newLoad = oldLoad ? function(){hideDiv.call(this);oldLoad.call(this);} : hideDiv;
+		  window.onload = newLoad;
+	</script>
+	<!-- End preloading -->
+    
+    <!-- Start Scroll to top -->
+    <div class="scroll top">
+        <a href="#home"><span class="fa fa-chevron-up"></span></a>
+    </div>
+    <!-- End Scroll to top -->
+	
+    <!-- Start Scroll to top -->
+    <div class="scroll top">
+        <a href="#home"><span class="fa fa-chevron-up"></span></a>
+    </div>
+    <!-- End Scroll to top -->
+    
+    <!-- Start Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <!-- Start Submenu -->
+        <div class="submenu">
+            <span class="ribbon"></span>
+            <div class="container">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="sub-link"><span class="fa fa-envelope"></span> info@yourdomain.com </li>
+                    <li class="sub-link"><span class="fa fa-phone"></span> +6221-123-456-789 </li>
+                    <li class="link"><span class="fa fa-lock"></span><a href="#">Register</a> </li>
+                    <li class="link-btn"><a href="#" class="btn btn-primary">Login</a> </li>
+                </ul>
+            </div>
+        </div>    
+        <!-- End Submenu -->
+        
+        <!-- Start Mainmenu -->
+        <div class="mainmenu">
+            <div class="container">            
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myMenu">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="index.html">
+                    <img src="images/brand/logo.png" class="logo" alt="">  
+                  </a>
+                </div>
+
+                <!-- Navigation Menu -->
+                <div class="collapse navbar-collapse" id="myMenu">
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li class="active"><a href="features.html">Features</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                  </ul>
+                </div>
+            </div>
+        </div>    
+        <!-- End Mainmenu -->
+    </nav>
+    <!-- End Navigation -->
+    
+    <div class="clearfix"></div>
+	
+	<!-- Start inner head -->
+	<div class="inner-head bg-animate">
+        <!-- Start Animated Background -->
+        <div id="AnimatedBg" class="fixed-page"></div>
+        <!-- End Animated Background -->
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-md-8 col-md-offset-2">
+					<h3>Features</h3>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End inner head -->
+	
+    <div class="clearfix"></div>
+	
+	<!-- Start breadcrumb -->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="breadcrumb-wrapp">
+					<h6>Icons</h6>
+					<ol class="breadcrumb">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Page</a></li>
+						<li class="active">Icons</li>
+					</ol>
+				</div>
+			</div>	
+		</div>
+	</div>
+	<!-- End breadcrumb -->
+	
+    <div class="clearfix"></div>
+	
+	<div class="inner-page">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<aside>
+						<div class="aside-navbar">
+							<ul class="navbar-menu">
+								<li><a href="about.html">About us <span></span></a></li>
+								<li><a href="services.html">Our services <span></span></a></li>
+								<li class="active"><a href="features.html">Features <span></span></a></li>
+								<li><a href="pricing.html">Pricing <span></span></a></li>
+								<li><a href="blog.html">Our blog <span></span></a></li>
+								<li><a href="elements.html">Eements <span></span></a></li>
+								<li><a href="icons.html">Icons <span></span></a></li>
+								<li><a href="contact.html">Contact us <span></span></a></li>
+							</ul>
+						</div>
+					</aside>
+				</div>
+				<div class="col-md-8">
+					<div class="row">
+						<div class="col-md-6 marginbot30">
+							<i class="icon icon-64 icon-shipwheel alignleft"></i>
+							<h5 class="title">Responsive</h5>
+							<p>
+								Hinc errem volutpat per in, te hinc essent mea. Ei pro corrumpit, elit ullum scripserit eum ad.
+							</p>
+						</div>
+						<div class="col-md-6 marginbot30">
+							<i class="icon icon-64 icon-magicwand alignleft"></i>
+							<h5 class="title">Magic HTML5</h5>
+							<p>
+								Hinc errem volutpat per in, te hinc essent mea. Ei pro corrumpit, elit ullum scripserit eum ad.
+							</p>
+						</div>
+						<div class="col-md-6 marginbot30">
+							<i class="icon icon-64 icon-polaroid alignleft"></i>
+							<h5 class="title">Flat style</h5>
+							<p>
+								Hinc errem volutpat per in, te hinc essent mea. Ei pro corrumpit, elit ullum scripserit eum ad.
+							</p>
+						</div>
+						<div class="col-md-6 marginbot30">
+							<i class="icon icon-64 icon-art alignleft"></i>
+							<h5 class="title">Colorful icon</h5>
+							<p>
+								Hinc errem volutpat per in, te hinc essent mea. Ei pro corrumpit, elit ullum scripserit eum ad.
+							</p>
+						</div>
+						<div class="col-md-6 marginbot30">
+							<i class="icon icon-64 icon-lightbulb alignleft"></i>
+							<h5 class="title">Clean design</h5>
+							<p>
+								Hinc errem volutpat per in, te hinc essent mea. Ei pro corrumpit, elit ullum scripserit eum ad.
+							</p>
+						</div>
+						<div class="col-md-6 marginbot30">
+							<i class="icon icon-64 icon-spaceshuttle alignleft"></i>
+							<h5 class="title">Easy setting</h5>
+							<p>
+								Hinc errem volutpat per in, te hinc essent mea. Ei pro corrumpit, elit ullum scripserit eum ad.
+							</p>
+						</div>
+						<div class="col-md-6 marginbot30">
+							<i class="icon icon-64 icon-dev alignleft"></i>
+							<h5 class="title">Valid code</h5>
+							<p>
+								Hinc errem volutpat per in, te hinc essent mea. Ei pro corrumpit, elit ullum scripserit eum ad.
+							</p>
+						</div>
+						<div class="col-md-6 marginbot30">
+							<i class="icon icon-64 icon-settings alignleft"></i>
+							<h5 class="title">PSD included</h5>
+							<p>
+								Hinc errem volutpat per in, te hinc essent mea. Ei pro corrumpit, elit ullum scripserit eum ad.
+							</p>
+						</div>
+						<div class="col-md-6 marginbot30">
+							<i class="icon icon-64 icon-clipboard alignleft"></i>
+							<h5 class="title">Documentation</h5>
+							<p>
+								Hinc errem volutpat per in, te hinc essent mea. Ei pro corrumpit, elit ullum scripserit eum ad.
+							</p>
+						</div>
+						<div class="col-md-6 marginbot30">
+							<i class="icon icon-64 icon-clock alignleft"></i>
+							<h5 class="title">24/7 support</h5>
+							<p>
+								Hinc errem volutpat per in, te hinc essent mea. Ei pro corrumpit, elit ullum scripserit eum ad.
+							</p>
+						</div>
+						<div class="col-md-12">
+							<a href="#" class="btn btn-primary btn-lg btn-block">Get connected with us</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End inner page -->
+	
+    <div class="clearfix"></div>
+	
+    <!-- Start Footer -->
+    <footer> 
+        <div class="main-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 footer-item">
+                        <img src="images/brand/logo-footer.png" class="logo-footer" alt="">
+                        <!-- Start Network Social Icon -->
+                        <ul class="social-network">
+                            <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                            <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                            <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
+                            <li><a href="#"><span class="fa fa-dribbble"></span></a></li>
+                            <li><a href="#"><span class="fa fa-instagram"></span></a></li>
+                        </ul>
+                        <!-- End Network Social Icon -->
+                    </div>
+                    <div class="col-md-3 footer-item">
+                        <div class="row">
+                            <div class="col-md-5 col-sm-6 col-xs-6">
+                                <!-- Start Link -->
+                                <ul class="footer-link">
+                                    <li><a href="#">Travel</a></li>
+                                    <li><a href="#">Explorers</a></li>
+                                    <li><a href="#">Nature</a></li>
+                                    <li><a href="#">Science</a></li>
+                                    <li><a href="#">Advices</a></li>
+                                </ul>
+                                <!-- End Link -->
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-6">
+                                <!-- Start Link -->
+                                <ul class="footer-link">
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="#">Term Of Service</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                </ul>
+                                <!-- Start Link -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 footer-item">
+                        <!-- Start Subscribe -->
+                        <h5 class="title-footer">Subscribe Now</h5>
+                        <p>Hrrem volutpat per in, te hinc essent mea ei pro corrumpit.</p>
+                        <div class="input-group left">
+                            <input type="text" class="form-control form-subscribe" placeholder="Enter Your Email">
+                            <span class="input-group-btn">
+                            <button class="btn btn-primary" type="button"><span class="fa fa-envelope"></span></button>
+                            </span>
+                        </div>
+                        <!-- End Subscribe -->
+                    </div>
+                    <div class="col-md-3 footer-item">
+                        <!-- Start Twitter Feed -->
+                        <h5 class="title-footer">Twitter Feed</h5>
+                        <div id="tweecool"></div>
+                        <!-- End Twitter Feed -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sub-footer">
+            2015 &copy; Copyright <a href="#">NCE18CEX</a> - All right reserved
+        </div>
+    </footer>
+    <!-- End Footer -->
+    
+	<!-- START JAVASCRIPT -->
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing-1.3.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+    
+    <!-- JavaScript animatedBg -->	
+	<script src="js/animatedBg/animatedBg-setting.js"></script>
+    
+    <!-- Scrollspy -->
+	<script src="js/scrollspy/scrollspy.js"></script>
+
+    <!-- JavaScript animatedBg -->	
+	<script src="js/animatedBg/animatedBg-setting.js"></script>
+	
+    <!--[if lte IE 9]>
+    	<script src="js/tweecool/jquery.xdomainrequest.min.js"></script>      
+	<![endif]-->
+	<!-- Twitter Feed -->
+	<script src="js/tweecool/tweecool.js"></script>
+	<script src="js/tweecool/setting.js"></script>
+	
+    <!-- My Script -->
+    <script type="text/javascript" src="js/custom.js"></script>
+	<!-- END JAVASCRIPT -->
+
+</body>
+</html>
