@@ -5,14 +5,14 @@
 #   git config --global core.excludesfile '~/.gitignore_global'
 
 # Ignore bundler config.
-i_mad_zee/.bundle
+back_end/.bundle
 
 # Ignore the default SQLite database.
-i_mad_zee/db/*.sqlite3
-i_mad_zee/db/*.sqlite3-journal
+back_end/db/*.sqlite3
+back_end/db/*.sqlite3-journal
 
 # Ignore all logfiles and tempfiles.
-i_mad_zee/log/*
-!i_mad_zee/log/.keep
-i_mad_zee/tmp
-i_mad_zee/vendor/ruby
+back_end/log/*
+!back_end/log/.keep
+back_end/tmp
+back_end/vendor/ruby
