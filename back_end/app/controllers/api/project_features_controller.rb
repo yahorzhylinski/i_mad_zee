@@ -10,6 +10,6 @@ class Api::ProjectFeaturesController < Api::BaseController
       Rails.cache.write(project_features, PATH_TO_FEATURES, expires_in: TIME_TO_EXPIRE)
     end
 
-    render json: project_features
+    success_response project_features
   end
 end
