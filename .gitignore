@@ -15,3 +15,4 @@ i_mad_zee/db/*.sqlite3-journal
 i_mad_zee/log/*
 !i_mad_zee/log/.keep
 i_mad_zee/tmp
+i_mad_zee/vendor/ruby
