@@ -1,4 +1,4 @@
-class Api::BaseController < ActionController::API
+class Api::BaseController < ApplicationController
 
   protected
 
